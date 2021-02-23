@@ -3,7 +3,7 @@ whoami
 echo "checking ob plugin"
 echo "Prinintg key : $API_KEY" 
 ibmcloud login --apikey $API_KEY
-ibmcloud sat host attach --location us-east
+ic plugin show container-service
 
 sleep 10
 
