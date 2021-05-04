@@ -6,6 +6,6 @@ resource "null_resource" "sleep" {
   }
 
   provisioner "local-exec" {
-    command = "./ibmcloudcli.sh"
+    command = "./terraform_test.sh"
   }
  }
