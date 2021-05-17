@@ -1,8 +1,7 @@
 #!/bin/bash
 whoami
 echo "checking ob plugin"
-ibmcloud ob
-ibmcloud cs
+ibmcloud version
 
 
 ps aux
